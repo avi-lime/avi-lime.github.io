@@ -19,7 +19,7 @@ $.ajax({
             let kietmail = student["College Email I'd"]
             let libID = student["Library I'D"]
             let github = student["Github Link"]
-            let portfolio = student["Github Portfolio Link"]
+            let portfolio = student["GIthub Portfolio Link"]
             let linkedin = student["LinkedIn Profile Link"]
             let facebook = student["Facebook Profile Link"]
             let instagram = student["Instagram Profile Link"]

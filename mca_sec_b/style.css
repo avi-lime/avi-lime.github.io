@@ -30,6 +30,7 @@ nav .search {
     display: inline-block;
     position: relative;
     color: white;
+    font-size: 20px;
 }
 
 .nav-item::after {
@@ -54,9 +55,6 @@ nav .search {
     transform-origin: bottom left;
 }
 
-.row {
-    transition: all ease-in-out;
-}
 
 .row .my-card {
     margin: 2rem;
@@ -161,11 +159,13 @@ h3 {
     /* background-color: rgba(0, 0, 0, 0.554); */
 }
 
+footer {
+    margin-top: auto;
+}
 
 footer center {
     height: 60px;
     position: relative;
-    bottom: -1px;
     left: 0;
     right: 0;
     display: flex;
@@ -183,5 +183,51 @@ footer p {
 }
 
 footer a {
+    color: white;
+}
+
+.search {
+    position: relative;
+}
+
+.search_button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.search_text {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    outline: none;
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform 1s;
+}
+
+
+.back-to-top {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.back-to-top a {
     color: white;
 }

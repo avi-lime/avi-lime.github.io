@@ -34,7 +34,7 @@ $.ajax({
                 "youtube": youtube
             }
 
-            list += `<div class="col-md-6 col-lg-4 col-sm-12 mb-4">
+            list += `<div class="col-md-6 col-lg-3 col-sm-12 mb-4">
                 <div class="my-card mx-auto">
                     <div class="card-face front"
                         style="background-image:url('images/${image}')">

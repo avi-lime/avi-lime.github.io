@@ -92,6 +92,7 @@ nav {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+
 }
 
 .row .my-card .front {
@@ -101,10 +102,8 @@ nav {
 }
 
 .row .my-card .back {
-    /* background-color: orange; */
     background-color: #000000;
     background-image: radial-gradient(45% 85% at 65% 65%, rgba(13, 58, 216, 0.8) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(35% 70% at 35% 50%, #9d0303 0%, rgba(0, 0, 0, 0) 79.09%);
-
 
     transform: rotateY(180deg);
 }
@@ -154,5 +153,23 @@ h3 {
     position: absolute;
     font-family: 'Poppins';
     bottom: 10px;
-    /* background-color: rgba(0, 0, 0, 0.554); */
+}
+
+
+footer {
+    height: 40px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+}
+
+footer a {
+    color: white;
 }

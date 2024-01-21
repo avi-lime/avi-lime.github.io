@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+}
+
+nav {
+    font-family: 'Playfair Display SC';
+    font-size: 40px;
+}
+
+.container {
+    padding: 100px;
+}
+
+.my-card {
+    display: flex;
+    perspective: 1000px;
+    height: 400px;
+    width: 100%;
+}
+
+.card-face {
+    width: 100%;
+}
+
+.row .my-card .front {
+    aspect-ratio: 3/4 !important;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.row .my-card .back {
+    border-radius: 10px 10px;
+    height: 100%;
+}
+
+.my-card .front {
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-card p {
+    font-size: 20px;
+    padding-inline: 10px;
+    margin-top: auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    bottom: 10px;
+}
+
+.row .social-links a {
+    text-decoration: none;
+    color: #fff;
+    padding-inline: 10px;
+}
+
+i {
+    font-size: 30px;
+}

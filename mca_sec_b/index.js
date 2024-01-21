@@ -24,17 +24,17 @@ $.ajax({
             let facebook = student["Facebook Profile Link"]
             let instagram = student["Instagram Profile Link"]
             let twitter = student["Twitter Profile Link"]
-            let youtube = student["YouTube Channel Link"]
+            let youtube = student["Youtube"]
             let socials = {
-                "facebook": facebook,
-                "twitter": twitter,
-                "instagram": instagram,
-                "github": github,
                 "linkedin": linkedin,
-                "youtube": youtube
+                "github": github,
+                "youtube": youtube,
+                "twitter-x": twitter,
+                "instagram": instagram,
+                "facebook": facebook
             }
 
-            list += `<div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+            list += `<div class="col-md-6 col-lg-4 col-xl-3 col-sm-12 mb-4">
                 <div class="my-card mx-auto">
                     <div class="card-face front"
                         style="background-image:url('images/${image}')">
@@ -66,7 +66,7 @@ $.ajax({
                 `
             // Add to the card deck.
 
-
+            if (firstName == "Avinashkumar" || firstName == "Adarsh") console.log(list)
         })
         list += "</div>"
         $(".container").html(list)

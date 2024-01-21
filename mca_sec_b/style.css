@@ -130,7 +130,7 @@ i {
 .info {
     position: absolute;
     top: 20px;
-    left: -5px;
+    left: -13px;
 }
 
 .info_list {
@@ -153,6 +153,7 @@ h3 {
     position: absolute;
     font-family: 'Poppins';
     bottom: 10px;
+    /* background-color: rgba(0, 0, 0, 0.554); */
 }
 
 

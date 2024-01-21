@@ -8,18 +8,27 @@ body {
 }
 
 nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     font-family: 'Playfair Display SC';
     font-size: 40px;
+    background-color: black;
 }
 
 .container {
-    padding: 100px;
+    padding: 20px 100px;
+}
+
+.row {
+    gap: 3rem;
 }
 
 .my-card {
     display: flex;
     perspective: 1000px;
-    height: 400px;
+    height: 320px;
     width: 100%;
 }
 
@@ -29,14 +38,17 @@ nav {
 
 .row .my-card .front {
     aspect-ratio: 3/4 !important;
-    width: 300px;
+    width: 240px;
     border-radius: 10px 0 0 10px;
 
 }
 
 .row .my-card .back {
-    border-radius: 10px 10px;
+    background-color: #eee;
+    color: black;
+    border-radius: 0 10px 10px 0;
     height: 100%;
+    position: relative;
 }
 
 .my-card .front {
@@ -53,18 +65,34 @@ nav {
 
 .social-links {
     display: flex;
-    justify-content: center;
-    position: relative;
-    left: 0;
+
+    position: absolute;
+    left: 32px;
     bottom: 10px;
 }
 
 .row .social-links a {
     text-decoration: none;
-    color: #fff;
-    padding-inline: 10px;
+    color: black;
+    padding-right: 20px;
 }
 
 i {
     font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li:first-child {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+li:nth-child(2) {
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }

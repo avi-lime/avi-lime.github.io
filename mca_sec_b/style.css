@@ -22,7 +22,7 @@ nav {
 
 nav .search {
     background: none;
-    
+
 }
 
 
@@ -162,10 +162,10 @@ h3 {
 }
 
 
-footer {
-    height: 40px;
+footer center {
+    height: 60px;
     position: relative;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     right: 0;
     display: flex;

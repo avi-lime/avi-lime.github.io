@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Practice</title>
+</head>
+
+<body>
+    <section>
+        <h1>List of Content</h1>
+        <ul>
+            <li><a href="#armstrong">Armstrong Number</a></li>
+            <li><a href="#evenodd">Even Odd</a></li>
+            <li><a href="#greatestofthree">Greatest of Three</a></li>
+            <li><a href="#leapyear">Leap Year</a></li>
+            <li><a href="#palindrome">Palindrome</a></li>
+            <li><a href="#perfectnum">Perfect Number</a></li>
+            <li><a href="#prime">Prime Number</a></li>
+            <li><a href="#revstr">String Reverse</a></li>
+            <li><a href="#strlen">String Length</a></li>
+            <li><a href="#sumofdig">Sum of Digits</a></li>
+            <li><a href="#vowel">Vowels in a String</a></li>
+        </ul>
+    </section>
+    <section id="armstrong">
+        <h2>Armstrong Number:</h2>
+        <p>Check whether the number is armstrong number or not!</p>
+        <input type="text" id="txtArm">
+        <input type="submit" value="Check" onclick="armstrong()">
+        <p id="resArm"></p>
+    </section>
+
+    <section id="evenodd">
+        <h2>Even/Odd:</h2>
+        <p>Check whether the number is an even number or an odd number!</p>
+        <input type="text" id="txtEveOdd">
+        <input type="submit" value="Check" onclick="evenodd()">
+        <p id="resEveOdd"></p>
+    </section>
+
+    <section id="greatestofthree">
+        <h2>Greatest of 3 Numbers:</h2>
+        <p>Get the greatest of 3 numbers:</p>
+        <input type="text" id="txtGot1">
+        <input type="text" id="txtGot2">
+        <input type="text" id="txtGot3">
+        <input type="submit" value="Check" onclick="greatest()">
+        <p id="resGot"></p>
+    </section>
+
+    <section id="leapyear">
+        <h2>Leap Year:</h2>
+        <p>Check whether the year is a leap year or not!</p>
+        <input type="text" id="txtLeap">
+        <input type="submit" value="Check" onclick="leapyear()">
+        <p id="resLeap"></p>
+    </section>
+
+    <section id="palindrome">
+        <h2>Palindrome Number:</h2>
+        <p>Check whether the number or string is palindrome or not!</p>
+        <input type="text" id="txtPal">
+        <input type="submit" value="Check" onclick="palindrome()">
+        <p id="resPal"></p>
+    </section>
+
+    <section id="perfectnum">
+        <h2>Perfect Number:</h2>
+        <p>Check whether the number is a perfect number or not!</p>
+        <input type="text" id="txtPer">
+        <input type="submit" value="Check" onclick="perfectnum()">
+        <p id="resPer"></p>
+    </section>
+
+    <section id="prime">
+        <h2>Prime Number:</h2>
+        <p>Check whether the number is a prime number or not!</p>
+        <input type="text" id="txtPrime">
+        <input type="submit" value="Check" onclick="prime()">
+        <p id="resPrime"></p>
+    </section>
+
+    <section id="revstr">
+        <h2>Reverse String:</h2>
+        <p>Get reverse of the string</p>
+        <input type="text" id="txtRev">
+        <input type="submit" value="Check" onclick="revstr()">
+        <p id="resRev"></p>
+    </section>
+
+    <section id="strlen">
+        <h2>String Length:</h2>
+        <p>Get length of the string</p>
+        <input type="text" id="txtLen">
+        <input type="submit" value="Check" onclick="strlen()">
+        <p id="resLen"></p>
+    </section>
+
+    <section id="sumofdig">
+        <h2>Sum of Digits:</h2>
+        <p>Get sum of the digits of the number:</p>
+        <input type="text" id="txtSum">
+        <input type="submit" value="Check" onclick="sumofdig()">
+        <p id="resSum"></p>
+    </section>
+
+    <section id="vowel">
+        <h2>Vowels in a String:</h2>
+        <p>Get number of vowels in the string</p>
+        <input type="text" id="txtVow">
+        <input type="submit" value="Check" onclick="vowel()">
+        <p id="resVow"></p>
+    </section>
+
+
+    <a href="#" id="btt" class="backtotop hide">Top</a>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

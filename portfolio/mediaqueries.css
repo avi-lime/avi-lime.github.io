@@ -1,5 +1,5 @@
 @media screen and (max-width: 1400px) {
-  #profile {  
+  #profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
@@ -82,6 +82,7 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    gap: 1rem;
   }
 
   .contact-info-container {

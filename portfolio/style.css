@@ -390,6 +390,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   flex-direction: column;

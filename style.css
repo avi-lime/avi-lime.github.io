@@ -221,6 +221,7 @@ section {
 /* BUTTONS */
 
 .btn-container {
+  margin-top: auto;
   display: flex;
   justify-content: center;
   gap: 1rem;

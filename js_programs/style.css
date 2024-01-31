@@ -4,6 +4,34 @@
     scroll-behavior: smooth;
 }
 
+.bg {
+    height: 100vh;
+    width: 100vw;
+    z-index: -999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-block: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -40,8 +68,8 @@ input[type=button] {
     position: fixed;
     right: 0;
     bottom: 0;
-    background-color: lightblue;
-    color: white !important;
+    background-color: white;
+    color: black !important;
     height: 40px;
     width: 80px;
     border-radius: 100px;
